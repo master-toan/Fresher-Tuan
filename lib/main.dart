@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freshertuan/examples/divider/vertical_divider_example.dart';
+import 'package:freshertuan/examples/display/icon/flutter_logo_example.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: VerticalDividerExample(),
+      home: FlutterLogoExample(),
     );
   }
 }
