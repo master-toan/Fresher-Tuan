@@ -1,0 +1,22 @@
+{
+  "Scaffold Page": {
+    "prefix": "scaf",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "class ${1:MyWidget} extends StatelessWidget {",
+      "  const ${1:MyWidget}({super.key});",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Scaffold(",
+      "      body: Center(",
+      "        child: Placeholder(),",
+      "      ),",
+      "    );",
+      "  }",
+      "}"
+    ],
+    "description": "Tạo StatelessWidget với Scaffold mặc định"
+  }
+}
