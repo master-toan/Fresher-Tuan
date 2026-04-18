@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freshertuan/examples/opacity/opacity_example.dart';
+import 'package:freshertuan/examples/material/material_button_example.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OpacityExample(),
+      home: MaterialButtonExample(),
     );
   }
 }
