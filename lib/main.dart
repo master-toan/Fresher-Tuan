@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freshertuan/examples/effect/ink_well_example.dart';
+import 'package:freshertuan/examples/button/absorb_pointer_example.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: InkWellExample(),
+      home: AbsorbPointerExample(),
     );
   }
 }
